@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TestMainVerticle</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TestMainVerticle</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.demo.weatherApp.html">com.demo.weatherApp</a> &gt; TestMainVerticle</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.923s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGetAPIWithLatLon(Vertx, VertxTestContext)</td>
+<td class="success">0.675s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAPIWithPlace(Vertx, VertxTestContext)</td>
+<td class="success">0.159s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAPIWithProvideRange(Vertx, VertxTestContext)</td>
+<td class="success">0.302s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAPIWithZipCode(Vertx, VertxTestContext)</td>
+<td class="success">0.156s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertAPIs(Vertx, VertxTestContext)</td>
+<td class="success">0.172s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSearchAPIWithPlace(Vertx, VertxTestContext)</td>
+<td class="success">0.179s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSearchAPIsWithLatLon(Vertx, VertxTestContext)</td>
+<td class="success">0.241s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verticle_deployed(Vertx, VertxTestContext)</td>
+<td class="success">0.039s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>HTTP server started on port 7080
+Rec 200 {&quot;coord&quot;:{&quot;lon&quot;:12.8029,&quot;lat&quot;:77.7036},&quot;weather&quot;:[{&quot;id&quot;:803,&quot;main&quot;:&quot;Clouds&quot;,&quot;description&quot;:&quot;broken clouds&quot;,&quot;icon&quot;:&quot;04n&quot;}],&quot;base&quot;:&quot;stations&quot;,&quot;main&quot;:{&quot;temp&quot;:265.94,&quot;feels_like&quot;:258.94,&quot;temp_min&quot;:265.94,&quot;temp_max&quot;:265.94,&quot;pressure&quot;:1028,&quot;humidity&quot;:68,&quot;sea_level&quot;:1028,&quot;grnd_level&quot;:1028},&quot;visibility&quot;:10000,&quot;wind&quot;:{&quot;speed&quot;:6.8,&quot;deg&quot;:19,&quot;gust&quot;:7.18},&quot;clouds&quot;:{&quot;all&quot;:55},&quot;dt&quot;:1648524703,&quot;sys&quot;:{&quot;country&quot;:&quot;SJ&quot;,&quot;sunrise&quot;:1648526093,&quot;sunset&quot;:1648578724},&quot;timezone&quot;:7200,&quot;id&quot;:2729456,&quot;name&quot;:&quot;Nybyen&quot;,&quot;cod&quot;:200}
+ Response of lat &amp; long
+HTTP server started on port 7080
+HTTP server started on port 7080
+
+Got weather data of 12.9762 77.6033 io.vertx.sqlclient.impl.RowSetImpl@ad9a236 weather of Bengaluru [{id=721, main=Haze, description=haze, icon=50d}] 1277333 12.9762 77.6033 IN null 
+HTTP server started on port 7080
+HTTP server started on port 7080
+Rec 200 {&quot;coord&quot;:{&quot;lon&quot;:72.8333,&quot;lat&quot;:21.1667},&quot;weather&quot;:[{&quot;id&quot;:701,&quot;main&quot;:&quot;Mist&quot;,&quot;description&quot;:&quot;mist&quot;,&quot;icon&quot;:&quot;50d&quot;}],&quot;base&quot;:&quot;stations&quot;,&quot;main&quot;:{&quot;temp&quot;:299.14,&quot;feels_like&quot;:299.14,&quot;temp_min&quot;:299.14,&quot;temp_max&quot;:299.14,&quot;pressure&quot;:1010,&quot;humidity&quot;:78},&quot;visibility&quot;:3000,&quot;wind&quot;:{&quot;speed&quot;:0,&quot;deg&quot;:0},&quot;clouds&quot;:{&quot;all&quot;:7},&quot;dt&quot;:1648524624,&quot;sys&quot;:{&quot;type&quot;:1,&quot;id&quot;:9071,&quot;country&quot;:&quot;IN&quot;,&quot;sunrise&quot;:1648515885,&quot;sunset&quot;:1648560124},&quot;timezone&quot;:19800,&quot;id&quot;:1255364,&quot;name&quot;:&quot;Surat&quot;,&quot;cod&quot;:200}
+ Response of Place
+HTTP server started on port 7080
+Rec 200 {&quot;coord&quot;:{&quot;lon&quot;:77.7036,&quot;lat&quot;:12.8029},&quot;weather&quot;:[{&quot;id&quot;:721,&quot;main&quot;:&quot;Haze&quot;,&quot;description&quot;:&quot;haze&quot;,&quot;icon&quot;:&quot;50d&quot;}],&quot;base&quot;:&quot;stations&quot;,&quot;main&quot;:{&quot;temp&quot;:299.21,&quot;feels_like&quot;:299.21,&quot;temp_min&quot;:299.21,&quot;temp_max&quot;:299.31,&quot;pressure&quot;:1016,&quot;humidity&quot;:73},&quot;visibility&quot;:5000,&quot;wind&quot;:{&quot;speed&quot;:4.12,&quot;deg&quot;:230},&quot;clouds&quot;:{&quot;all&quot;:20},&quot;dt&quot;:1648524704,&quot;sys&quot;:{&quot;type&quot;:1,&quot;id&quot;:9205,&quot;country&quot;:&quot;IN&quot;,&quot;sunrise&quot;:1648514853,&quot;sunset&quot;:1648558820},&quot;timezone&quot;:19800,&quot;id&quot;:0,&quot;name&quot;:&quot;Chandapura&quot;,&quot;cod&quot;:200}
+ Response of zipcode
+HTTP server started on port 7080
+
+Got weather data of Bengaluru io.vertx.sqlclient.impl.RowSetImpl@2e8012de weather of Bengaluru [{id=721, main=Haze, description=haze, icon=50d}] 1277333 12.9762 77.6033 IN null 
+HTTP server started on port 7080
+
+
+
+Got weather data of 12.9762 77.6033 io.vertx.sqlclient.impl.RowSetImpl@4987e509 weather of Bengaluru [{id=721, main=Haze, description=haze, icon=50d}] 1277333 12.9762 77.6033 IN null weather of Chandapura [{id=801, main=Clouds, description=few clouds, icon=02d}] 1274169 17.4436 77.4334 IN null weather of Mysore [{id=701, main=Mist, description=mist, icon=50d}] 1262321 12.3072 76.6497 IN null 
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mar 29, 2022 9:09:09 AM io.netty.resolver.dns.DnsServerAddressStreamProviders &lt;clinit&gt;
+WARNING: Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.2</a> at 29-Mar-2022, 9:09:11 am</p>
+</div>
+</div>
+</body>
+</html>
